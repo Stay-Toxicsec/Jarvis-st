@@ -100,7 +100,7 @@ def process_command(command):
         speak("Would you like to Email the developer?")
         xv= listen()
         if 'yes' in xv:
-            email_address = "deveshmishra975@gmail.com"
+            email_address = "staytoxicsec@gmail.com"
 
             def open_compose_email():
                 mailto_link = f"mailto:{email_address}"
