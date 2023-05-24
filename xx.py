@@ -2,6 +2,7 @@
 #Team Head "Devesh Mishra"
 
 import pyttsx3
+import openai
 import os
 import speech_recognition as sr
 import datetime
@@ -14,11 +15,12 @@ import pyjokes
 from myapi import apikey
 
 openai.api_key = apikey
-def dc(s):
+def dc():
     a= listen()
 
     completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": a}])
     print(completion.choices[0].message.content)
+    exit()
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
@@ -89,6 +91,8 @@ def process_command(command):
         exit()
     elif 'toxic youtube' in command:
         webbrowser.open("https://www.youtube.com/@toxicsecurity")
+    elif 'open intelligence' in command:
+        dc()
     elif 'make request' in command:
         
         speak("Here's the telegram channel")
