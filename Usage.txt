@@ -1,0 +1,10 @@
+**make sure to download python first
+
+open cmd in this(JARVIS) folder
+
+type:
+             pip install -r req.txt
+
+then type:
+             python xx.py
+
