@@ -1,10 +1,15 @@
 **make sure to download python first
+open myapi.py and add your open ai api key
+save and close
+
 
 open cmd in this(JARVIS) folder
 
 type:
              pip install -r req.txt
-
+open main.py
+or 
+open cmd and
 then type:
-             python xx.py
+             python main.py
 
