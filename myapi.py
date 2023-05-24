@@ -1,1 +1,3 @@
-apikey = "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"
+apikey = "API_YOUR"
+
+#change API_YOUR with your openai api
